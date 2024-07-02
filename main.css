@@ -7,10 +7,14 @@
 header,
 section h2,
 section h3,
-form button {
-    font-family: "Bungee", sans-serif;
-    font-weight: normal;
-}
+section h4,
+form button  {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
 
 body, input, textarea {
     font-family: "Roboto", sans-serif;
@@ -18,13 +22,13 @@ body, input, textarea {
 
 header {
     padding: 16px 0;
-    background-color: #182C61;
+    background-color: #af0909;
     color: #ecf0f1;
 }
 
 header nav li {
     display: inline;
-    margin-left: 16px;
+    margin-left: 24px;
     font-size: 18px;
 }
 
@@ -32,6 +36,10 @@ header nav li a {
     color: #ecf0f1;
     text-decoration: none;
 }
+
+header nav li a:hover {
+    background-color: #158b0a;
+    }
 
 .container {
     max-width: 1280px;
@@ -46,7 +54,58 @@ section .container {
     justify-content: space-between;
 }
 
-.brands-list img{
+img {
+    max-width: 100%;
+    height:auto ;
+}
+
+.recommended-list img {
+    height: 100px;
+}
+
+.recommended-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.recommended-list img {
+    width: 30%; 
+    height: auto; 
+    border-radius :5px;
+  }
+
+.slot-list  img {
+    height: 100px;
+}
+
+.slot-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.slot-list img {
+    width: 14.5%;
+    height: auto;
+    border-radius :5px;
+}
+
+.roulette img {
+    display: inline;
+    margin-right: 8px;
+}
+
+.roulette li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.roulette img {
+    width: 14%;
+    height: auto; 
+    border-radius :5px;
+  }
+
+.brands-list img {
     height: 24px;
 }
 
@@ -63,13 +122,13 @@ section {
     padding: 24px;
 }
 
-section h2 {
+section h3 {
     margin-bottom: 16px;
-    color: #182C61;
+    color: #ecf0f1;
 }
 
 section {
-    color: #182C61;
+    color: #ecf0f1;
 }
 
 section p {
@@ -78,6 +137,8 @@ section p {
 
 .store-front {
     margin-right: 32px;
+    height: 370px;
+    border-radius :5px;
 }
 
 .social-links img {
@@ -109,6 +170,7 @@ form button {
     width: 320px;
     margin-bottom: 8px;
     padding: 8px;
+    border-radius :5px;
 }
 
 form textarea {
@@ -116,27 +178,43 @@ form textarea {
     height: 180px;
 }
 
-section h3 {
+section h4 {
     margin-bottom: 16px;
 }
 
 form button {
-    background-color:#182C61;
+    background-color:#af0909;
     color: #fff;
     border: none;
     cursor: pointer;
 }
 
 form button:hover {
-background-color: #36519d;
+background-color: #158b0a;
 }
 
 input:focus, textarea:focus {
-    outline-color: #182C61;
+    outline-color: #158b0a;
 }
 
 footer {
-    background-color: #182C61;
+    background-color: #af0909;
     color: #ecf0f1;
     padding: 16px 0;
+}
+
+#contact {
+    background-color: #0f3940;
+}
+
+#about {
+    background-color: #0f3940;
+}
+
+#recommended {
+    background-color: #0f3940;
+}
+
+input:focus, textarea:focus {
+    outline-color: #158b0a;
 }
